@@ -1,0 +1,23 @@
+.library{
+  background-color: aliceblue;
+}
+.Explr_btn{
+padding: 7px 13px ;
+border:solid 3px   rgb(232, 163, 79);
+border-radius: 27px;
+background-color: rgb(19, 19, 88);
+color: white;
+transition: 0.2s;
+
+}
+.Explr_btn:hover{
+  background-color: rgb(35, 35, 148);
+  box-shadow:  1px 1px 6px 1px rgba(26, 25, 25, 0.97);
+}
+.trash,
+.BookOpen{
+  background-color: rgb(131, 162, 188);
+}
+.Book{
+  background-color: rgb(131, 188, 146);
+}

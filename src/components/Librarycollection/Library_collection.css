@@ -1,0 +1,51 @@
+#bookCollections{
+  background-color: grey;
+}
+.majorCard {
+  height: 350px;
+}
+
+#card {
+  background-color: #bdd3fb;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(238, 191, 184);
+  position: relative;
+}
+
+#subcard {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  bottom: -122px;
+  left: 25px;
+}
+
+#trash {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  color: rgb(159, 9, 9);
+  padding: 0px;
+  border: none;
+  background-color: #bdd3fb;
+}
+.title,
+.autherName{
+  word-wrap: break-word;
+}
+#edit{
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.imagesInCard {
+  transition: transform 0.5s ease;
+}
+
+.imagesInCard:hover {
+  transform: scale3d(1.2, 1.2, 0.2);
+}
+
+

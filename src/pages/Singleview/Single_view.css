@@ -1,0 +1,21 @@
+#singlebg{
+  height: 100%;
+  margin: 0;
+  background-color: #FBC6BD;
+}
+.prefacecontentlines{
+  font-size: medium;
+  word-wrap: break-word;
+  display: block;  
+  line-height: 1.4;
+}
+.backbtn{
+  background-color: rgb(19, 19, 88);
+  color: white;
+  border:none;
+  border-radius: 5px;
+  padding: 2px 12px 4px;
+}
+.title,.Auther,.Published{
+  word-wrap: break-word;
+}

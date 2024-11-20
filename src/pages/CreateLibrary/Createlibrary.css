@@ -1,0 +1,41 @@
+#herosection {
+  position: relative;
+  height: 500px;
+  margin-top: 29px;
+  overflow: hidden;
+}
+
+#herosection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://i.postimg.cc/pX2XM2Nz/pexels-rafael-cosquiere-1059286-2041540.jpg") no-repeat center;
+  background-size: cover;
+  filter: blur(4px);
+  z-index: 1; 
+}
+
+#herocontent {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  z-index: 2; 
+  text-align: center;
+  padding-top: 150px; 
+}
+
+.Addbtn{
+ background-color: rgb(19, 19, 88);
+ border: solid 4px rgb(232, 163, 79);
+ transition: 0.2s;
+}
+
+.Addbtn:hover{
+  box-shadow: 0.2px 0.2px 5px rgb(238, 191, 184);
+}
+
+      
+

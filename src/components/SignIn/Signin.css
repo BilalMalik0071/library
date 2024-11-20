@@ -1,0 +1,22 @@
+.signinbackgrond{
+  background-color: rgb(255, 102, 0);
+  height: 100vh;
+  background-image: url('https://i.postimg.cc/43BpxjZ4/360-F-959764243-h-RVHrngm-K5-Az-NXic-Cjn-ZNy5ag4e-Ka-Rg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.signinBox{
+  background:#665660;
+  color: aliceblue;
+}
+#submit{
+  border: none;
+  background-color: #182869;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+#submit:hover{
+  background-color: #121c47;
+}
